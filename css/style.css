@@ -1,0 +1,50 @@
+body{
+	max-width: 1000px;
+	margin: auto;
+	font-family: "Whitney SSm A", "Whitney SSm B", "Lato", "Lucida Grande", "Lucida Sans Unicode", Tahoma, Sans-Serif;
+    font-weight: 400;
+    line-height: 1.45;
+
+}
+
+.contenedor{
+    background-color: #56d0b3;
+
+	color: #938a9a;
+	display: flex;
+	flex-direction: row;
+	margin-top: 30px;
+	justify-content: space-around;
+	align-items: stretch;
+}
+
+.contenedor article{
+	background-color: #4d394b;
+	margin: 0 10px;
+	padding: 10px;
+	border: 1px solid grey;
+	align-content: stretch;	
+}
+
+.contenedor img{
+	width: 100%;
+}
+
+.uno{
+	order:1;
+	flex: 1;
+}
+.dos{
+	order:3;
+	flex: 1;
+}
+.tres{
+	order:2;
+	flex: 2;
+}
+.cuatro{
+	order:4;
+	flex: 1;
+}
+
+
